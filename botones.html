@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+    
+
+    <style>
+        body{
+            background: #f2f2f2;
+            font-family: Arial, sans-serif;
+
+        }
+
+        div{
+            margin: 20px 0;
+        }
+
+        .btn{
+            background: #530d48;
+            color: #fff;
+            font-size: 16px;
+            padding: 15px 20px;
+            margin: 0 10px;
+            border-style: none;            
+
+        }
+
+        .btn:hover{
+            opacity: 0.8;
+            cursor: pointer;
+
+        }
+
+        /* tamanho*/
+
+        .small{
+            font-size: 14px;
+            padding: 10px 15px;
+        
+        }
+        .mediun{
+            font-size: 16px;
+            padding: 15px 20px;
+        
+        }
+
+        .big{
+            font-size: 18px;
+            padding: 20px 25px;
+        
+        }
+
+        /* colores*/
+
+        .azul{background: blue;}
+
+        .verde{background: green;}
+
+        .naranja{background: orange;}
+
+        /*Efectos*/
+
+        .border-radius{border-radius: 30px;}
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <button class="btn">Boton Estandar</button>
+    </div>
+    
+
+    <div>
+        <button class="btn small azul">Boton Pequeno</button>
+        <button class="btn mediun verde">Boton Mediano</button>
+        <button class="btn big naranja">Boton Grande</button>
+    </div>
+
+    <div>
+        <button class="btn small azul border-radius">Boton Pequeno</button>
+        <button class="btn mediun verde border-radius">Boton Mediano</button>
+        <button class="btn big naranja border-radius">Boton Grande</button>
+    </div>
+
+</body>
+</html>
